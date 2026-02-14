@@ -56,7 +56,7 @@ Save `nimbus.csv` into your project folder on your computer. Then read it into a
 
 ```{r}
 #| label: read-nimbus
-nimbus <- read_csv("nimbus.csv")
+nimbus <- read_csv("data/nimbus.csv")
 ```
 
 Notice that the code above saves the output to an object named nimbus. You must save the output of `read_csv()` to an object if you wish to use it later. If you do not save the output, `read_csv()` will merely print the contents of the data set at the command line.
